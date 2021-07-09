@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+
+  min-height: 100vh;
+  background-image: url('./background.jpeg');
+  background-size: cover;
+  background-position: center center;
+  /* background: linear-gradient(
+      to bottom,
+      rgba(20, 20, 20, 0.1) 10%,
+      rgba(20, 20, 20, 0.5) 90%,
+      rgba(20, 20, 20, 1)
+    ),
+    url('./background.jpeg'); */
+
+  display: flex;
+  justify-content: center;
+}
+
+h1,
+h3 {
+  margin: 0;
+}
+
+.countdown-container {
+}
+
+.event {
+  margin-top: 150px;
+}
+
+.event h1 {
+  font-family: 'Times New Roman';
+  font-size: 4rem;
+}
+
+.event h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.num-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0 1.5rem;
+}
+
+.big-number {
+  font-weight: 400;
+  font-size: 4rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
