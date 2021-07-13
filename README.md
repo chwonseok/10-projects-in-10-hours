@@ -3,10 +3,18 @@
 ## Inspired by Youtube video, link: https://www.youtube.com/watch?v=dtKciwk_si4
 
 ### 1. Countdown Timer
-- Design: 
-- future date (later, I will add function which user can put the date)
-- timer function
+
+- Design: https://www.uidesigndaily.com/posts/sketch-countdown-timer-day-312
+- timer
+
+#### What to add more?
+
+- Calendar that I can choose to set countdown
+- More design changes on around number
+
 ### 2. Quiz App
+
+- Design: https://www.uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924
 
 ### 3. Recipe App
 

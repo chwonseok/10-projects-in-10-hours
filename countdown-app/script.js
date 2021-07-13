@@ -1,6 +1,7 @@
 const eventPlace = document.querySelector('.event-place');
 const eventDate = document.querySelector('.event-time');
 
+const eventInput = document.querySelector('event-enter');
 const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');
 const minsEl = document.getElementById('mins');

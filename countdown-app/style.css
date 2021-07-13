@@ -29,9 +29,6 @@ h3 {
   margin: 0;
 }
 
-.countdown-container {
-}
-
 .event {
   margin-top: 150px;
 }
@@ -52,11 +49,6 @@ h3 {
 }
 
 .num-c {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   margin: 0 1.5rem;
 }
 
