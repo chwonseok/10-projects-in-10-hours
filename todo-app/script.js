@@ -1,5 +1,4 @@
-const title = document.getElementById('title'),
-  form = document.getElementById('form'),
+const form = document.getElementById('form'),
   input = document.getElementById('input'),
   todos = document.getElementById('todos');
 
