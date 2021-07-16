@@ -55,3 +55,8 @@ body {
   border: solid white 2px;
   overflow: auto;
 }
+
+#todos li:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}

@@ -7,10 +7,14 @@ const formHandler = (e) => {
   if (!input.value) return;
 
   const todoEl = document.createElement('li');
-
-  todos.appendChild(todoEl);
   todoEl.innerText = input.value;
+
   input.value = '';
+
+  todoEl.addEventListener('click', function (e) {
+    e.target.remove();
+  });
+  todos.appendChild(todoEl);
 };
 
 form.addEventListener('submit', formHandler);
